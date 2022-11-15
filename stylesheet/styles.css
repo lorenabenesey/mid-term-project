@@ -31,10 +31,6 @@ nav ul {
   flex-direction: column;
 }
 nav ul li {
-  display: flex;
-  list-style-type: none;
-  align-items: flex-end;
-  justify-content: space-between;
   display: none;
 }
 nav ul li a {
@@ -47,6 +43,9 @@ nav ul li a:hover {
 }
 .contact-btn {
   display: none;
+}
+.menu-btn {
+  border: none;
 }
 
 /*Sección hero*/
@@ -136,6 +135,10 @@ p {
     flex-direction: row;
   }
   nav ul li {
+    display: flex;
+    list-style-type: none;
+    align-items: flex-end;
+    justify-content: space-between;
     padding: 20px;
   }
   .current {
@@ -160,14 +163,49 @@ p {
     font-weight: 500;
     justify-content: center;
     border: none;
+    margin-right: 70px;
   }
   .contact-btn:hover {
     background-color: #292e47;
+  }
+  .menu-btn {
+    display: none;
   }
   /*Hero section*/
   p {
     font-size: 20px;
     line-height: 150%;
     color: #6b708d;
+  }
+  #hero {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .empower {
+    display: flex;
+  }
+  h1 {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+    text-align: left;
+  }
+  p {
+    font-size: 20px;
+    line-height: 150%;
+    text-align: left;
+    width: 100%;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .hero-btns {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .touch-btn {
   }
 }
