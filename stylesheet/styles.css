@@ -10,6 +10,7 @@ body {
 nav {
   display: flex;
   margin-left: 30px;
+  margin-top: 30px;
 }
 .navbar {
   display: flex;
@@ -24,6 +25,7 @@ nav img {
 }
 .nav-menu {
   display: flex;
+  
 }
 nav ul {
   display: flex;
@@ -34,6 +36,7 @@ nav ul li {
   list-style-type: none;
   align-items: flex-end;
   justify-content: space-between;
+  display:none;
 }
 nav ul li a {
   font-weight: 500;
