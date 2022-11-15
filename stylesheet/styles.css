@@ -103,10 +103,15 @@ p {
   color: #6b708d;
   text-align: center;
 }
+.hero-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .smiling-guy {
-  align-items: center;
   width: 80%;
+  margin-top: 25px;
 }
 .thumb {
   width: 50%;
@@ -122,7 +127,6 @@ p {
   nav {
     justify-content: space-between;
     align-items: center;
-    width: 1100px;
     margin-top: 70px;
   }
   nav img {
