@@ -68,7 +68,7 @@ h1 {
   align-items: center;
   color: #292e47;
 }
-p {
+#hero p {
   margin: 0 auto;
   width: 80%;
   text-align: center;
@@ -150,6 +150,89 @@ p {
 }
 .ama-logo {
   display: none;
+}
+/*Seccion projects*/
+
+#projects {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+}
+#projects h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #292e47;
+  font-size: 30px;
+}
+
+#projects p {
+  color: #292e47;
+  font-weight: 500;
+  text-align: start;
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+#projects h4 {
+  margin-left: 30px;
+  color: #6b708d;
+  font-weight: 400;
+  font-size: 14px;
+}
+#projects a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  color: #072ac8;
+  margin-left: 30px;
+  bottom:10px;
+}
+.article-text{
+
+}
+.first-square {
+  background-color: white;
+  width: 340px;
+  height: 444px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.first-square img {
+  width: 340px;
+  height: 242px;
+  display: flex;
+}
+
+.second-square {
+  background-color: white;
+  width: 340px;
+  height: 444px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.second-square img {
+  width: 340px;
+  height: 242px;
+  display: flex;
+  flex-direction: column;
+}
+.third-square {
+  background-color: white;
+  width: 340px;
+  height: 444px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.third-square img {
+  width: 340px;
+  height: 242px;
+  display: flex;
 }
 
 /*Sección Media Query desktop*/
@@ -309,5 +392,27 @@ p {
     display: block;
     margin-left: 30px;
     margin-bottom: 50px;
+  }
+  /*Seccion projects*/
+  #projects {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    align-items: center;
+  }
+  #projects h3 {
+    font-size: 40px;
+  }
+
+  #projects h3 {
+    width: 285px;
+    height: 94px;
+    flex-direction: column;
+  }
+  #projects a {
+    font-size: 17px;
+  }
+  #projects h4 {
+    font-size: 17px;
   }
 }
