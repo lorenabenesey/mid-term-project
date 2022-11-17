@@ -159,9 +159,10 @@ h1 {
   align-items: center;
 }
 
-#projects h3 {
+.recent h3 {
   color: #292e47;
-  font-size: 50px;
+  font-size: 30px;
+  text-align: center;
 }
 
 #projects p {
