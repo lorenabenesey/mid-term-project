@@ -188,11 +188,10 @@ h1 {
   font-weight: 400;
   color: #072ac8;
   margin-left: 30px;
-  bottom:10px;
+  bottom: 10px;
 }
-.article-text{
 
-}
+
 .first-square {
   background-color: white;
   width: 340px;
@@ -342,6 +341,7 @@ h1 {
     display: flex;
     width: 570px;
     height: 650px;
+    position: relative;
   }
   .smiling-guy {
     width: 570px;
@@ -352,14 +352,16 @@ h1 {
     position: absolute;
     width: 260px;
     height: 263px;
+    top:0;
+    left:0;
   }
   .thumb {
     display: block;
     position: absolute;
     width: 260px;
     height: 263px;
-    left: 1080px;
-    top: 457px;
+    right: 0;
+    bottom: 0;
   }
   /*Seccion clients*/
 
@@ -401,13 +403,12 @@ h1 {
     align-items: center;
   }
   #projects h3 {
-    font-size: 40px;
-  }
-
-  #projects h3 {
     width: 285px;
     height: 94px;
+    font-size: 40px;
     flex-direction: column;
+    position: relative;
+    
   }
   #projects a {
     font-size: 17px;
@@ -415,4 +416,4 @@ h1 {
   #projects h4 {
     font-size: 17px;
   }
-}
+  
