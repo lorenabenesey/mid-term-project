@@ -118,6 +118,35 @@ p {
   display: none;
 }
 
+/*Seccion clients*/
+
+#clients {
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 25px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.air-logo {
+  width: 20%;
+  margin-left: 30px;
+}
+.google-logo {
+  width: 20%;
+  margin-left: 30px;
+}
+.micro-logo {
+  width: 20%;
+  margin-left: 30px;
+}
+.fed-logo {
+  width: 20%;
+  margin-left: 30px;
+}
+.ama-logo {
+  display: none;
+}
+
 /*Sección Media Query desktop*/
 @media (min-width: 770px) {
   .main {
@@ -225,21 +254,16 @@ p {
     display: flex;
     width: 570px;
     height: 650px;
-    left: 700px;
-    top: 0px;
   }
   .smiling-guy {
     width: 570px;
     height: 637px;
-    left: 700px;
   }
   .credit-card {
     display: block;
     position: absolute;
     width: 260px;
     height: 263px;
-    left: 700px;
-    top: 25px;
   }
   .thumb {
     display: block;
