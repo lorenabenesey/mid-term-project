@@ -278,4 +278,36 @@ p {
     left: 1080px;
     top: 457px;
   }
+  /*Seccion clients*/
+
+  #clients {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-top: 100px;
+  }
+  .air-logo {
+    width: 100%;
+    margin-left: 0px;
+    margin-bottom: 50px;
+  }
+  .google-logo {
+    width: 80%;
+    margin-left: 30px;
+    margin-bottom: 50px;
+  }
+  .micro-logo {
+    width: 80%;
+    margin-left: 30px;
+    margin-bottom: 50px;
+  }
+  .fed-logo {
+    width: 80%;
+    margin-left: 30px;
+    margin-bottom: 50px;
+  }
+  .ama-logo {
+    display: block;
+    margin-left: 30px;
+    margin-bottom: 50px;
+  }
 }
