@@ -120,13 +120,16 @@ p {
 
 /*Sección Media Query desktop*/
 @media (min-width: 770px) {
+  .main {
+    width: 1100px;
+    margin: 0 auto;
+  }
   nav {
     justify-content: space-between;
     align-items: center;
     margin-top: 70px;
   }
   nav img {
-    margin-left: 250px;
   }
   nav ul {
     flex-direction: row;
@@ -160,7 +163,6 @@ p {
     font-weight: 500;
     justify-content: center;
     border: none;
-    margin-right: 170px;
   }
   .contact-btn:hover {
     background-color: #292e47;
@@ -178,11 +180,9 @@ p {
     display: flex;
     flex-direction: row;
     align-items: center;
-    position: absolute;
     margin-top: 50px;
     width: 1100px;
     height: 650px;
-    margin-left: 250px;
   }
   .empower {
     display: flex;
@@ -229,7 +229,6 @@ p {
     top: 0px;
   }
   .smiling-guy {
-    position: absolute;
     width: 570px;
     height: 637px;
     left: 700px;
@@ -237,16 +236,16 @@ p {
   .credit-card {
     display: block;
     position: absolute;
-    width: 190px;
-    height: 216px;
+    width: 260px;
+    height: 263px;
     left: 700px;
     top: 25px;
   }
   .thumb {
     display: block;
     position: absolute;
-    width: 190px;
-    height: 193px;
+    width: 260px;
+    height: 263px;
     left: 1080px;
     top: 457px;
   }
