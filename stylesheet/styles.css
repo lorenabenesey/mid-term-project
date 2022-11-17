@@ -66,6 +66,7 @@ h1 {
   line-height: 50px;
   text-align: center;
   align-items: center;
+  color: #292e47;
 }
 p {
   margin: 0 auto;
@@ -94,6 +95,15 @@ p {
   font-weight: 500;
   justify-content: center;
   border: none;
+  margin-bottom: 20px;
+}
+.see-link {
+  text-decoration: none;
+  color: #6b708d;
+}
+.hero-img {
+  display: flex;
+  justify-content: center;
 }
 .smiling-guy {
   width: 80%;
@@ -116,7 +126,7 @@ p {
     margin-top: 70px;
   }
   nav img {
-    margin-left: 70px;
+    margin-left: 250px;
   }
   nav ul {
     flex-direction: row;
@@ -150,7 +160,7 @@ p {
     font-weight: 500;
     justify-content: center;
     border: none;
-    margin-right: 70px;
+    margin-right: 170px;
   }
   .contact-btn:hover {
     background-color: #292e47;
@@ -169,9 +179,10 @@ p {
     flex-direction: row;
     align-items: center;
     position: absolute;
+    margin-top: 50px;
     width: 1100px;
     height: 650px;
-    left: 170px;
+    margin-left: 250px;
   }
   .empower {
     display: flex;
@@ -211,7 +222,6 @@ p {
     text-align: center;
   }
   .hero-img {
-    position: absolute;
     display: flex;
     width: 570px;
     height: 650px;
@@ -219,6 +229,7 @@ p {
     top: 0px;
   }
   .smiling-guy {
+    position: absolute;
     width: 570px;
     height: 637px;
     left: 700px;
@@ -233,5 +244,10 @@ p {
   }
   .thumb {
     display: block;
+    position: absolute;
+    width: 190px;
+    height: 193px;
+    left: 1080px;
+    top: 457px;
   }
 }
