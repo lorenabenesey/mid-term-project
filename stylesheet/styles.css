@@ -469,6 +469,7 @@ h1 {
     display: flex;
     align-content: center;
     text-align: center;
+    margin-bottom: 20px;
   }
   .hero-img {
     display: flex;
