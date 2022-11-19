@@ -469,8 +469,8 @@ footer img {
   width: 100%;
   display: flex;
   flex-direction: column;
-  margin: auto;
   margin-bottom: 60px;
+  align-items: stretch;
 }
 .row {
   display: flex;
@@ -481,7 +481,7 @@ footer img {
 footer ul li {
   list-style-type: none;
   display: inline;
-  margin-right: 30px;
+  margin-right: 40px;
 }
 footer ul li a {
   font-weight: 500;
