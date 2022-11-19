@@ -390,35 +390,89 @@ h1 {
   color: #292e47;
   font-size: 30px;
   font-weight: 600;
-  line-height: 46.88px;
+  line-height: 36px;
   width: 80%;
   text-align: left;
 }
 #questions p {
   color: #6b708d;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 400;
   line-height: 30px;
   text-align: center;
 }
 .btns {
   margin: auto;
+  justify-content: center;
+  margin: 30px;
 }
 #questions .email-btn {
+  display: flex;
   color: #292e47;
-  width: 198px;
-  height: 80px;
+  width: 240px;
+  height: 60px;
   background-color: #f4f6fc;
   border: none;
+  margin-bottom: 20px;
+  align-items: center;
 }
 
-.subscribe-btn {
+#questions .email-btn img {
+  width: 30px;
+  height: 30px;
+  margin-left: 20px;
+}
+
+input {
+  border: none;
+  background-color: #f4f6fc;
+  color: #292e47;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+#questions .subscribe-btn {
   border: none;
   background-color: #072ac8;
   color: #ffffff;
-  width: 198px;
+  width: 240px;
   height: 80px;
   text-align: center;
+}
+
+/*Footer */
+
+footer {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  flex-direction: row;
+}
+.footbar {
+  display: flex;
+  flex-direction: column;
+}
+footer img {
+  display: flex;
+  width: 98.38px;
+  height: 30px;
+}
+.footbar p {
+  font-size: 17px;
+  color: #6b708d;
+}
+
+.foot-menu {
+  display: flex;
+  flex-direction: column;
+}
+
+footer ul li a {
+  font-weight: 500;
+  text-decoration: none;
+  color: #6b708d;
+  font-size: 17px;
+  font-weight: 400;
 }
 
 /*Media Query desktop*/
@@ -714,9 +768,11 @@ h1 {
     height: 227px;
   }
   #questions h3 {
+    margin: auto;
     font-size: 40px;
     font-weight: 700;
     line-height: 46.88px;
+    text-align: center;
   }
   #questions p {
     font-size: 20px;
@@ -727,9 +783,22 @@ h1 {
     width: 393px;
     height: 80px;
   }
-
-  .form-example {
+  .btns {
+    display: flex;
+    margin: auto;
+  }
+  .email-btn {
     width: 198px;
     height: 80px;
+    margin-right: 20px;
+  }
+
+  .subscribe-btn {
+    width: 198px;
+    height: 80px;
+  }
+  input {
+    margin-left: 10px;
+    font-size: 17px;
   }
 }
