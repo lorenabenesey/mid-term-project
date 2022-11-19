@@ -401,20 +401,24 @@ h1 {
   line-height: 30px;
   text-align: center;
 }
+.btns {
+  margin: auto;
+}
 #questions .email-btn {
   color: #292e47;
-  width: 393px;
+  width: 198px;
   height: 80px;
   background-color: #f4f6fc;
   border: none;
 }
 
-.form-example {
+.subscribe-btn {
   border: none;
   background-color: #072ac8;
   color: #ffffff;
   width: 198px;
   height: 80px;
+  text-align: center;
 }
 
 /*Media Query desktop*/
