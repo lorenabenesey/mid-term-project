@@ -306,6 +306,59 @@ h1 {
   line-height: 15px;
 }
 
+/*Services */
+
+#services {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.title-services h3 {
+  color: #292e47;
+  font-size: 30px;
+  text-align: center;
+}
+
+#services p {
+  color: #292e47;
+  font-weight: 500;
+  text-align: start;
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+#services h4 {
+  margin-left: 30px;
+  color: #6b708d;
+  font-weight: 400;
+  font-size: 14px;
+}
+#services a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  color: #072ac8;
+  margin-left: 30px;
+  bottom: 10px;
+}
+
+.square-services {
+  background-color: white;
+  width: 340px;
+  height: 380px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.square-services img {
+  width: 40px;
+  height: 40px;
+  display: flex;
+}
+
 /*Media Query desktop*/
 @media (min-width: 770px) {
   .main {
@@ -491,15 +544,13 @@ h1 {
   .second-square {
     margin-right: 40px;
   }
-  .third-square {
-  }
 
   /*Testimonials */
 
   #testimonials {
     display: flex;
     background-color: #292e47;
-    width: 1100px;
+    width: 1320px;
     height: 622px;
     margin-bottom: 50px;
     margin: 0 auto;
@@ -553,5 +604,31 @@ h1 {
   .booking {
     display: flex;
     align-items: left;
+  }
+
+  /*Services*/
+  #services {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    margin-bottom: 100px;
+  }
+  .title-services h3 {
+    width: 285px;
+    height: 94px;
+    font-size: 40px;
+    flex-direction: column;
+    text-align: left;
+    position: relative;
+    margin-top: 100px;
+  }
+  #services a {
+    font-size: 17px;
+  }
+  #services h4 {
+    font-size: 17px;
+  }
+  .square-services {
+    margin-right: 40px;
   }
 }
