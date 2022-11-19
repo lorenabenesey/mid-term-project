@@ -388,10 +388,25 @@ h1 {
   line-height: 46.88px;
 }
 #questions p {
-  color: #292e47;
+  color: #6b708d;
   font-size: 20px;
   font-weight: 400;
   line-height: 30px;
+}
+#questions .email-btn {
+  color: #292e47;
+  width: 393px;
+  height: 80px;
+  background-color: #f4f6fc;
+  border: none;
+}
+
+.form-example {
+  border: none;
+  background-color: #072ac8;
+  color: #ffffff;
+  width: 198px;
+  height: 80px;
 }
 
 /*Media Query desktop*/
