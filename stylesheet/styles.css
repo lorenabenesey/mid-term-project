@@ -490,19 +490,41 @@ h1 {
     width: 1100px;
     height: 622px;
     margin-bottom: 50px;
-    margin: 0 auto; 
+    margin: 0 auto;
   }
   .big-container {
     display: flex;
-    margin: 0 auto;
-    width: 1185px;
+    position: relative;
+    width: 90%;
     height: 498px;
-
+    align-items: center;
+    margin: auto;
   }
 
   .emojis {
     display: block;
     flex-direction: column;
+  }
+  .emojis img {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+  }
+  .up-left {
+    top: 0;
+    left: 0;
+  }
+  .down-left {
+    bottom: 0;
+    left: 0;
+  }
+  .up-right {
+    top: 0;
+    right: 0;
+  }
+  .down-right {
+    bottom: 0;
+    right: 0;
   }
   .testimonials {
     width: 382px;
@@ -518,6 +540,6 @@ h1 {
   }
   .booking {
     display: flex;
-    flex-direction: column;
+    align-items: left;
   }
 }
