@@ -248,12 +248,10 @@ h1 {
   width: 100%;
 }
 
-.emojis-1 {
+.emojis {
   display: none;
 }
-.emojis-2 {
-  display: none;
-}
+
 .testimonials {
   display: flex;
   flex-direction: column;
@@ -495,14 +493,11 @@ h1 {
     display: flex;
   }
 
-  .emojis-1 {
+  .emojis {
     display: block;
     flex-direction: column;
   }
-  .emojis-2 {
-    display: block;
-    flex-direction: column;
-  }
+
   .testimonials-center h3 {
     font-weight: 700;
     size: 40px;
