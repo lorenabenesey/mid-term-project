@@ -254,11 +254,16 @@ h1 {
 .emojis-2 {
   display: none;
 }
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: space-around;
+}
 .testimonials-center {
   display: flex;
   flex-direction: column;
   width: 80%;
-  justify-content: center;
   text-align: center;
 }
 .testimonials-center h3 {
@@ -268,6 +273,25 @@ h1 {
 }
 .testimonials-center p {
   color: #ffc600;
+}
+
+.booking img {
+  border-radius: 50%;
+  width: 30%;
+}
+
+.booking p {
+  color: #a2d6f9;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 100%;
+}
+.booking a {
+  text-decoration: none;
+  color: #f4f6fc;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
 }
 
 /*Media Query desktop*/
@@ -482,5 +506,8 @@ h1 {
   .testimonials-center h3 {
     font-weight: 700;
     size: 40px;
+  }
+  .booking {
+    display: flex;
   }
 }
