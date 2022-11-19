@@ -470,6 +470,7 @@ footer img {
   display: flex;
   flex-direction: column;
   margin: auto;
+  margin-bottom: 50px;
 }
 .row {
   display: flex;
@@ -485,7 +486,7 @@ footer ul li {
 footer ul li a {
   font-weight: 500;
   text-decoration: none;
-  color: #6b708d;
+  color: #072ac8;
   font-size: 17px;
   font-weight: 400;
 }
