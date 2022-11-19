@@ -352,11 +352,21 @@ h1 {
   display: flex;
   flex-direction: column;
   margin-bottom: 10px;
+  justify-content: space-evenly;
+}
+.circle-blue {
+  width: 80px;
+  height: 80px;
+  background-color: #ecf7ff;
+  margin-left: 20px;
+  border-radius: 50%;
+  position: relative;
 }
 .square-services img {
   width: 40px;
   height: 40px;
   display: flex;
+  margin-left: 20px;
 }
 
 /*Media Query desktop*/
@@ -612,7 +622,9 @@ h1 {
     flex-direction: row;
     margin: 0 auto;
     margin-bottom: 100px;
+    margin-top: 30px;
   }
+
   .title-services h3 {
     width: 285px;
     height: 94px;
@@ -630,5 +642,10 @@ h1 {
   }
   .square-services {
     margin-right: 40px;
+  }
+  .square-services img {
+    width: 50px;
+    height: 50px;
+    margin-left: 30px;
   }
 }
