@@ -470,7 +470,7 @@ footer img {
   display: flex;
   flex-direction: column;
   margin: auto;
-  margin-bottom: 50px;
+  margin-bottom: 60px;
 }
 .row {
   display: flex;
@@ -820,15 +820,15 @@ footer ul li a {
   /*Footer */
 
   footer {
-    display: flex;
-    width: 90%;
-    margin: auto;
-    flex-direction: column;
+    width: 100%;
+    flex-direction: row;
+
+    align-items: center;
   }
   .footbar {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
+    width: 260px;
+    height: 112px;
   }
   footer img {
     display: flex;
@@ -838,12 +838,15 @@ footer ul li a {
   }
   .footbar p {
     font-size: 17px;
-    text-align: center;
+    text-align: left;
   }
 
   .foot-menu {
     display: flex;
     flex-direction: column;
+    width: 435px;
+    height: 112px;
+    align-items: stretch;
   }
   .row {
     display: flex;
@@ -856,7 +859,6 @@ footer ul li a {
   footer ul li a {
     font-weight: 500;
     text-decoration: none;
-    color: #6b708d;
     font-size: 17px;
     font-weight: 400;
   }
