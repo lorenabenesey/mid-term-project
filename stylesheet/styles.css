@@ -428,7 +428,7 @@ h1 {
   margin-left: 20px;
 }
 
-input {
+.email-btn input {
   border: none;
   background-color: #f4f6fc;
   color: #292e47;
@@ -550,6 +550,16 @@ footer ul li a {
   margin-top: 50px;
 }
 
+/*Project page*/
+/*----------------------------------------------------*/
+.contact-container h1 {
+  text-align: left;
+  color: #292e47;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 70px;
+  margin-bottom: 10px;
+}
 /*Media Query desktop*/
 @media (min-width: 770px) {
   .main {
@@ -984,5 +994,10 @@ footer ul li a {
     line-height: 150%;
     color: #6b708d;
     margin-top: 50px;
+  }
+  /*Project page*/
+  /*----------------------------------------------------*/
+  .contact-container h1 {
+    font-size: 60px;
   }
 }
