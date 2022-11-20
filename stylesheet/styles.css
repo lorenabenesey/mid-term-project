@@ -552,21 +552,25 @@ footer ul li a {
 
 /*Contact page*/
 /*----------------------------------------------------*/
-.contact-container {
+
+.contact {
+  margin-top: 50px;
   width: 90%;
-  height: 660px;
+  margin: 0 auto;
+}
+.contact-container {
+  width: 94%;
+  height: 800px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
 }
 
-.contact-container h1 {
-  text-align: start;
-  color: #292e47;
+.contact h1 {
   font-weight: 700;
   font-size: 40px;
-  line-height: 70px;
-  margin-bottom: 10px;
+  margin-bottom: 40px;
+  width: 100%;
 }
 .contact-container form {
   display: flex;
@@ -589,9 +593,27 @@ footer ul li a {
   color: #6b708d;
   border: none;
   background-color: rgba(107, 112, 141, 0.1);
-  width: 100%;
-  height: 80px;
+  width: 90%;
+  height: 70px;
   margin-bottom: 10px;
+  padding-left: 20px;
+}
+
+.contact-container textarea {
+  height: 300px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 150%;
+  color: #6b708d;
+  border: none;
+  background-color: rgba(107, 112, 141, 0.1);
+  height: 200px;
+  margin-bottom: 20px;
+  width: 90%;
+  padding-top: 5px;
+  padding-left: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .contact-container button {
@@ -601,7 +623,7 @@ footer ul li a {
   font-size: 17px;
   line-height: 130%;
   text-align: center;
-  width: 100%;
+  width: 95%;
   height: 80px;
   border: none;
 }
@@ -1042,9 +1064,59 @@ footer ul li a {
   }
   /*Contact page*/
   /*----------------------------------------------------*/
-  .contact-container h1 {
+  .contact {
+    margin-top: 150px;
+    width: 100%;
+  }
+
+  .contact h1 {
     font-size: 60px;
-    width: 1100px;
+    text-align: start;
+    margin-bottom: 70px;
+  }
+
+  .contact-container {
+    width: 100%;
     height: 660px;
+  }
+
+  .contact-container label {
+    display: flex;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    width: 100%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+  form {
+    width: 100%;
+  }
+  .contact-container input {
+    font-weight: 400;
+    font-size: 17px;
+    width: 1090px;
+    height: 70px;
+    margin-bottom: 10px;
+  }
+
+  .inline-inputs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .inline-inputs input {
+    width: 530px;
+    height: 70px;
+  }
+  .contact-container textarea {
+    width: 100%;
+  }
+
+  .contact-container button {
+    font-weight: 500;
+    font-size: 20px;
+    width: 1120px;
   }
 }

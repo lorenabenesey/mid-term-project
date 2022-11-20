@@ -36,7 +36,7 @@
 
         </nav>
 
-        <div>
+        <div class="contact">
             <h1>Contact us</h1>
         </div>
         <section class="contact-container">
@@ -48,15 +48,19 @@
                     <label for="name">Full Name *</label>
                     <input type="text" name="name" id="name" placeholder="Enter your full name" required="">
                 </div>
-                <div><label for="email">Email</label>
-                    <input type="email" name="email" id="email" placeholder="Enter your email address" required="">
-                </div>
-                <div><label for="number">Phone</label>
-                    <input type="number" name="number" id="number" placeholder="Enter your phone number" required="">
-                </div>
+                <aside class="inline-inputs">
+                    <div class="inline-inputs1"><label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="Enter your email address" required="">
+                    </div>
+                    <div class="inline-inputs2"><label for="number">Phone</label>
+                        <input type="number" name="number" id="number" placeholder="Enter your phone number"
+                            required="">
+                    </div>
+                </aside>
                 <div><label for="message">Message*</label>
-                    <input type="text" name="message" id="message" placeholder="Write your message here ...."
-                        required="">
+                    <textarea name="message" id="message" placeholder="Write your message here ..." required=""
+                        cols="50" rows="10"></textarea>
+
                 </div>
                 <div>
                     <button>Submit</button>
