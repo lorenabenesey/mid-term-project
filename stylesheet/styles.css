@@ -1,5 +1,6 @@
 /* Mobile first*/
-/*Css para la seccion nav*/
+/*Homepage*/
+/*----------------------------------------------------*/
 
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
@@ -495,6 +496,28 @@ footer ul li a {
   font-weight: 400;
 }
 
+/*Project page*/
+/*----------------------------------------------------*/
+.text-project {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.text-project h1 {
+  text-align: left;
+  color: #292e47;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 70px;
+  margin-bottom: 10px;
+}
+.big-part img {
+  flex-direction: column;
+  width: 1100px;
+  height: 444px;
+  width: 530px;
+}
+
 /*Media Query desktop*/
 @media (min-width: 770px) {
   .main {
@@ -867,5 +890,19 @@ footer ul li a {
     text-decoration: none;
     font-size: 17px;
     font-weight: 400;
+  }
+  /*Project page*/
+  /*----------------------------------------------------*/
+  .text-project h1 {
+    text-align: left;
+    color: #292e47;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+    margin-bottom: 10px;
+  }
+  .big-part img {
+    width: 1100px;
+    height: 444px;
   }
 }
