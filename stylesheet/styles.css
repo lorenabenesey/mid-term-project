@@ -65,7 +65,7 @@ nav ul li a:hover {
   width: 100%;
   flex-direction: column;
 }
-h1 {
+#hero h1 {
   width: 100%;
   font-weight: 700;
   font-size: 37px;
@@ -550,15 +550,60 @@ footer ul li a {
   margin-top: 50px;
 }
 
-/*Project page*/
+/*Contact page*/
 /*----------------------------------------------------*/
+.contact-container {
+  width: 90%;
+  height: 660px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
 .contact-container h1 {
-  text-align: left;
+  text-align: start;
   color: #292e47;
   font-weight: 700;
   font-size: 40px;
   line-height: 70px;
   margin-bottom: 10px;
+}
+.contact-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-container label {
+  display: flex;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #6b708d;
+  margin-bottom: 10px;
+}
+
+.contact-container input {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 150%;
+  color: #6b708d;
+  border: none;
+  background-color: rgba(107, 112, 141, 0.1);
+  width: 100%;
+  height: 80px;
+  margin-bottom: 10px;
+}
+
+.contact-container button {
+  background-color: #072ac8;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 130%;
+  text-align: center;
+  width: 100%;
+  height: 80px;
+  border: none;
 }
 /*Media Query desktop*/
 @media (min-width: 770px) {
@@ -633,7 +678,7 @@ footer ul li a {
   .empower {
     display: flex;
   }
-  h1 {
+  #hero h1 {
     font-weight: 700;
     font-size: 60px;
     line-height: 70px;
@@ -995,9 +1040,11 @@ footer ul li a {
     color: #6b708d;
     margin-top: 50px;
   }
-  /*Project page*/
+  /*Contact page*/
   /*----------------------------------------------------*/
   .contact-container h1 {
     font-size: 60px;
+    width: 1100px;
+    height: 660px;
   }
 }
