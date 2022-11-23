@@ -1,1 +1,15 @@
 .DS_Store
+Thumbs.db
+idea/workspace.xml
+.log
+.lock
+.tmp
+.o
+.pyc
+.class
+/node_modules
+/packages.
+/bin
+/out
+/target
+idea/workspace.xml

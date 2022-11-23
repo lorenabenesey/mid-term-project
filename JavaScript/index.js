@@ -1,13 +1,11 @@
 //GET
-async function get() {
+async function getProducts() {
   const res = await fetch(
-    "http://makeup-api.herokuapp.com/api/v1/products.json"
+    "https://makeup-api.herokuapp.com/api/v1/products.json?product_tags=vegan"
   );
   const data = await res.json();
-  console.log(data);
+  return data;
 }
-
-get();
 
 // POST
 
@@ -24,43 +22,18 @@ async function post() {
     },
   });
   const data = await res.json();
-  console.log(data);
 }
 
 // Promise based function
 // Card projects
-function obtainMakeUp() {
+/*function obtainMakeUp() {
   const makeUpArray = [];
-  data.forEach(element => {
-    
-  });
-  return new Promise((resolve, reject) => {
-    setTimeout(() => {
-      // Get the instruction string
-      let instruction;
-
-      // Resolve or reject the promise
-      if (!instruction) {
-        reject("Instruction step does not exist!");
-      } else {
-        resolve(instruction);
-      }
-    }, Math.floor(Math.random() * 1000));
-  });
+  data.forEach((element) => {});
 }
+Math.floor(Math.random() * 1000);*/
 
 // Burguer Menu
 
 // DATE FORMAT
 
-window.onload = function getCurrentDate() {
-  const date = new Date();
-
-  let day = date.getDate();
-  let month = date.getMonth() + 1;
-  let year = date.getFullYear();
-
-  let currentDate = `${day}-${month}-${year}`;
-  console.log(currentDate);
-  document.getElementById("current-date").innerHTML = currentDate;
-};
+// Contact form
