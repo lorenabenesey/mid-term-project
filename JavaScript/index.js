@@ -1,7 +1,15 @@
 //GET
-async function getProducts() {
+async function getRandomCocktail() {
   const res = await fetch(
-    "https://makeup-api.herokuapp.com/api/v1/products.json?product_tags=vegan"
+    "https://www.thecocktaildb.com/api/json/v1/1/random.php"
+  );
+  const data = await res.json();
+  return data;
+}
+
+async function getCocktailById(id) {
+  const res = await fetch(
+    "https://www.thecocktaildb.com/api/json/v1/1/lookup.php?i=" + id
   );
   const data = await res.json();
   return data;
@@ -24,13 +32,7 @@ async function post() {
   const data = await res.json();
 }
 
-// Promise based function
 // Card projects
-/*function obtainMakeUp() {
-  const makeUpArray = [];
-  data.forEach((element) => {});
-}
-Math.floor(Math.random() * 1000);*/
 
 // Burguer Menu
 
