@@ -22,5 +22,5 @@ function onLoadCocktailbyId(cocktail) {
 window.onload = getCurrentDate;
 
 const urlParams = new URLSearchParams(window.location.search);
-const id = urlParams.get("id");
+const id = urlParams.get("id") ? urlParams.get("id") : 13198;
 getCocktailById(id).then((data) => onLoadCocktailbyId(data.drinks[0]));

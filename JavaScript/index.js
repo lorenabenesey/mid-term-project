@@ -14,7 +14,3 @@ async function getCocktailById(id) {
   const data = await res.json();
   return data;
 }
-
-// Burguer Menu
-
-// Contact form
