@@ -35,7 +35,7 @@ function phoneIsValid() {
     alert("Phone number can't be blank");
     return false;
   } else if (phoneEl.length < 9) {
-    alert("Phone number must be at least 6 numbers long.");
+    alert("Phone number must be at least 9 numbers long.");
     return false;
   } else {
     return true;
